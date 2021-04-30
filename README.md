@@ -7,7 +7,7 @@
 
 [BAEKJOON](https://www.acmicpc.net/)
 
-[SW](https://swexpertacademy.com/main/main.do)
+[SWEA](https://swexpertacademy.com/main/main.do)
 
 [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
@@ -37,5 +37,5 @@
 |이름|GitHub| 백준 | SWEA | 프로그래머스 |
 |:---:|:---:|:------:|:------:|:------:|
 |안세훈|[@ashpurple](https://github.com/ashpurple)| Unranked | 2110 point | - |
-|이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Unranked | 1000 point | - |
-|한경빈|[@hanabzu](https://github.com/hanabzu)| Gold3 | 1000 point | - |
+|이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
+|한경빈|[@hanabzu](https://github.com/hanabzu)| Unranked | 1000 point | - |
