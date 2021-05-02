@@ -19,7 +19,8 @@
 - 서로의 코드 확인 후 피드백
 - src/[username] 디렉토리의 소스코드를 업로드한다.
 - PR Rule
-  - 2명 이상의 reviewer를 지정하고 code review가 모두 완료된 후 merge한다.
+  - 문제해결을 위한 핵심 아이디어를 기재한다.
+  - 2명 이상의 reviewer를 지정하고 **code review가 모두 완료된 후 merge한다.**
   - 마지막 reviewer가 review를 완료한 후 merge한다. (단, 해당 코드에 대한 질의가 모두 완료되어야 한다.)
 
 ## :green_book: Schedule
