@@ -11,6 +11,8 @@
 
 [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
+[Softeer](https://softeer.ai/practice/index.do)
+
 ## :ledger: Rule
 
 - 매주 번갈아가면서 한명이 한문제씩 선정 후 업로드
@@ -27,8 +29,8 @@
 
 |    주차     | 문제 |
 | ------ | :----------------------------------------------------------: |
-| 1주차 (5월 1주)  |[상금헌터 (Bronze2)](https://www.acmicpc.net/problem/15953)|
-| 2주차 (5월 2주) |                                       |
+| 1주차 (5월 1주)  |[상금헌터 (Bronze 2)](https://www.acmicpc.net/problem/15953)|
+| 2주차 (5월 2주) |[조립라인 (Level 3)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=403)|
 
 ## :blue_book: Algorithm Materials
 
