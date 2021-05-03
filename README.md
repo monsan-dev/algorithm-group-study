@@ -11,7 +11,6 @@
 
 [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
 
-[Softeer](https://softeer.ai/practice/index.do)
 
 ## :ledger: Rule
 
@@ -30,7 +29,7 @@
 |    주차     | 문제 |
 | ------ | :----------------------------------------------------------: |
 | 1주차 (5월 1주)  |[상금헌터 (Bronze 2)](https://www.acmicpc.net/problem/15953)|
-| 2주차 (5월 2주) |[조립라인 (Level 3)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=403)|
+| 2주차 (5월 2주) |[병사 배치하기 (Silver 2)](https://www.acmicpc.net/problem/18353)|
 
 ## :blue_book: Algorithm Materials
 
