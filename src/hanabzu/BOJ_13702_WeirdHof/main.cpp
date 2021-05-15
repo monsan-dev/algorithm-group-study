@@ -25,7 +25,7 @@ int main() {
 
 	/* find upper bound */
 	unsigned int low = 0;
-	unsigned int high = max + 1; // !! IDNW must do +1 to a maximum volume !!
+	unsigned int high = max + 1; // !! IDKW must do +1 to a maximum volume !!
 	unsigned int mid = 0;
 
 	while (low < high) {
