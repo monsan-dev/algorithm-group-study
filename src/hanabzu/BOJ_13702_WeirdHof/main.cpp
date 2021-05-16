@@ -23,12 +23,12 @@ int main() {
 		max = (max < v[i]) ? v[i] : max;
 	}
 
-	/* find upper bound */
+	/* find upper bound - 1 */
 	unsigned int low = 0;
-	unsigned int high = max + 1; // !! IDKW must do +1 to a maximum volume !! -> Because of UPPER BOUND!
+	unsigned int high = max;
 	unsigned int mid = 0;
 
-	while (low < high) {
+	while (low <= high) {
 		p = 0;
 		mid = (high + low) >> 1;
 		if (mid != 0) {
@@ -40,12 +40,11 @@ int main() {
 			low = mid + 1;
 		}
 		else {
-			high = mid;
+			high = mid - 1;
 		}
 	}
 
-	/* answer is upper bound minus 1, so as low minus 1 */
-	cout << (low == 0 ? low : --low); //prevent underflow
+	cout << high;
 	return 0;
 }
 
