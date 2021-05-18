@@ -31,6 +31,7 @@
 | 1주차 (5월 1주)  |[상금헌터 (Bronze 2)](https://www.acmicpc.net/problem/15953)|
 | 2주차 (5월 2주) |[조립라인 (Level 3)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=403)|
 | 3주차 (5월 3주) |[이상한 술집 (Silver 3)](https://www.acmicpc.net/problem/13702)|
+| 3주차 (5월 4주) |[배열 돌리기2 (Silver 2)](https://www.acmicpc.net/problem/16935)|
 
 ## :blue_book: Algorithm Materials
 
