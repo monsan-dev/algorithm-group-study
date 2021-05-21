@@ -55,12 +55,8 @@ void t1() {
 	for (int i = 0; i < 4; i++) {
 		reverse(v[i].begin(), v[i].end());
 	}
-	Matrix temp = v[0];
-	v[0] = v[2];
-	v[2] = temp;
-	temp = v[1];
-	v[1] = v[3];
-	v[3] = temp;
+	swap(v[0], v[2]);
+	swap(v[1], v[3]);
 }
 
 void t2() {
@@ -69,12 +65,8 @@ void t2() {
 			reverse(v[i][j].begin(), v[i][j].end());
 		}
 	}
-	Matrix temp = v[0];
-	v[0] = v[1];
-	v[1] = temp;
-	temp = v[2];
-	v[2] = v[3];
-	v[3] = temp;
+	swap(v[0], v[1]);
+	swap(v[2], v[3]);
 }
 
 void t3() {
@@ -93,9 +85,7 @@ void t3() {
 	}
 	t5();
 
-	int t = n; // swap row & column
-	n = m;
-	m = t;
+	swap(n, m);
 }
 
 void t4() {
@@ -114,9 +104,7 @@ void t4() {
 	}
 	t6();
 
-	int t = n; // swap row & column
-	n = m;
-	m = t;
+	swap(n, m);
 }
 
 void t5() {
