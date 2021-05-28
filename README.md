@@ -32,7 +32,8 @@
 | 2주차 (5월 2주) |[조립라인 (Level 3)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=403)|
 | 3주차 (5월 3주) |[이상한 술집 (Silver 3)](https://www.acmicpc.net/problem/13702)|
 | 4주차 (5월 4주) |[배열 돌리기3 (Silver 2)](https://www.acmicpc.net/problem/16935)|
-| 5주차 (6월 1주) |[도로와 신호등 (Silver 3)](https://www.acmicpc.net/problem/2980)|
+| 5주차 (5월 5주) |[도로와 신호등 (Silver 3)](https://www.acmicpc.net/problem/2980)|
+| 6주차 (6월 1주) |[님 무기가 좀 나쁘시네여 (Silver 1)](https://www.acmicpc.net/problem/11387)|
 
 ## :blue_book: Algorithm Materials
 
