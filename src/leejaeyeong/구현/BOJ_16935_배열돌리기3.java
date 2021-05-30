@@ -62,6 +62,8 @@ public class BOJ_16935_배열돌리기3 {
 	private static void reverseTopNBottom() { // 상하반전
 		int[] temp = new int[M];
 		for (int i = 0; i < N / 2; i++) {
+			// 내장함수를 이용한 배열 복사
+			// 원본 배열, 시작위치, 복사할 배열, 복사할 배열의 시작위치, 복사할 길이
 			System.arraycopy(arr[i], 0, temp, 0, M);
 			System.arraycopy(arr[N - i - 1], 0, arr[i], 0, M);
 			System.arraycopy(temp, 0, arr[N - i - 1], 0, M);
