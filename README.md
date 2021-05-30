@@ -48,3 +48,4 @@
 |안세훈|[@ashpurple](https://github.com/ashpurple)| Unranked | 2110 point | - |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
 |한경빈|[@hanabzu](https://github.com/hanabzu)| Unranked | 1000 point | - |
+|권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
