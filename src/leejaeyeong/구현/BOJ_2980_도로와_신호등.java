@@ -9,7 +9,7 @@ public class BOJ_2980_도로와_신호등 {
 		
 		int N = stoi(st.nextToken());  // 신호등 개수
 		int L = stoi(st.nextToken()); // 도로 길이
-		int currLoc = 0, time = 0;
+		int currLoc = 0, time = 0; // 최근위치, 소모 시간
 		
 		for (int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
