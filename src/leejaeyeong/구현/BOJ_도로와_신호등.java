@@ -21,7 +21,7 @@ public class BOJ_2980_도로와_신호등 {
 			currLoc = loc;
 			
 			int stop = time % (red + green); 
-			if (stop <= red) { // 빨간불에서 정지하는 시간
+			if (stop < red) { // 빨간불에서 정지하는 시간
 				time += red - stop;
 			}
 		}
