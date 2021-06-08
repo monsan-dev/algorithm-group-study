@@ -26,7 +26,7 @@ int main() {
 
 	for (int i = 0; i < P; i++) {
 		cin >> N >> M;
-		result = isHappy(M) && isPrime(M) ? " YES\n" : " NO\n";
+		result = isPrime(M) && isHappy(M) ? " YES\n" : " NO\n";
 		cout << N << ' ' << M << result;
 	}
 }
