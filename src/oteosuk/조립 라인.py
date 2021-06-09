@@ -2,6 +2,7 @@ import sys
 
 a_sel = 0
 b_sel = 0
+a_sel_temp = 0
 final_sel = 0 #최적값 변수
 
 aList = []
@@ -31,7 +32,7 @@ elif N == 2:
 
         print(final_sel)
 elif N > 2:
-    for x in range(1,N): #횟수만큼 반족
+    for x in range(N-1): #횟수만큼 반족
         a, b, a_to_b, b_to_a = map(int, sys.stdin.readline().rstrip().split())
         
         aList.append(a)
@@ -47,11 +48,13 @@ elif N > 2:
     
     for i in range(1,N-1):
         if i < N-2:
-            a_sel = choice( a_sel + aList[i+1] , b_sel + aList[i+1] + B_to_A_List[i] )
+            a_sel_temp = choice( a_sel + aList[i+1] , b_sel + aList[i+1] + B_to_A_List[i] )
             b_sel = choice( b_sel + bList[i+1] , a_sel + bList[i+1] + A_to_B_List[i] )
+            a_sel = a_sel_temp
         else:
-            a_sel = choice(a_sel + aN, b_sel + aN + B_to_A_List[N-2])
+            a_sel_temp = choice(a_sel + aN, b_sel + aN + B_to_A_List[N-2])
             b_sel = choice(b_sel + bN, a_sel + bN + A_to_B_List[N-2])
+            a_sel = a_sel_temp
     final_sel = choice(a_sel, b_sel)
     print(final_sel)
     
