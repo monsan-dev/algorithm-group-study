@@ -52,9 +52,7 @@ public class BOJ_10343_행복한소수 {
 		if (num == 1) 
 			return false;
 		
-		int divisor = (int)Math.sqrt((double)num); // 약수가 될 수 있는 최대 값
-		
-		for (int i = 2; i <= divisor; i++) {
+              for (int i = 2; i * i <= num; i++) {
 			if (num % i == 0) { // 나누어 떨어지는 경우 소수 아님
 				return false;
 			}
