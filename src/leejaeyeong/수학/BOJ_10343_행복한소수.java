@@ -38,9 +38,6 @@ public class BOJ_10343_행복한소수 {
 	
 	/* 각 자리수의 제곱을 더하는 함수 */
 	private static int compute(int num) {
-		if (num < 10) { // 한 자리 수인 경우
-			return num * num;
-		}
 		String strNum = Integer.toString(num);
 		int sum = 0;
 		for (int i = 0; i < strNum.length(); i++) {
