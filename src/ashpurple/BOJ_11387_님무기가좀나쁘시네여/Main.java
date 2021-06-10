@@ -10,7 +10,6 @@ public class Main {
 		int[][] stat; 
 		/* input */
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
 		stat=new int[4][5];
 		for (int i = 0; i < 4; i++) {
 			
@@ -29,42 +28,44 @@ public class Main {
 	
 		/* output */
 		
-		double player1=computePower(stat[0],stat[3])-computePower(stat[0],stat[2]);
+		float player1=computePower(stat[0],stat[3])-computePower(stat[0],stat[2]);
+		String result="";
 		if(player1>0)
-			System.out.println("+");
+			result="+";
 		else if(player1==0)
-			System.out.println("0");
+			result="0";
 		else
-			System.out.println("-");
+			result="-";
+		System.out.println(result);
 
-		double player2=computePower(stat[1],stat[2])-computePower(stat[1],stat[3]);
+		float player2=computePower(stat[1],stat[2])-computePower(stat[1],stat[3]);
 		if(player2>0)
-			System.out.print("+");
+			result="+";
 		else if(player2==0)
-			System.out.print("0");
+			result="0";
 		else
-			System.out.print("-");
-		
+			result="-";
+		System.out.println(result);
 	}
 	private static int stoi(String s) {
 		return Integer.parseInt(s);
 	}
 	
-	private static double min(double value) {
+	private static float min(float value) {
 		if (value>=100)
-			value=1.0;
+			value=1;
 		else
 			value/=100;
 		return value;
 	}
 	
-	private static double computePower(int stat[],int weapon[]) {
-		double attack=(double)(stat[0]+weapon[0]);
-		double strength=(double)(stat[1]+weapon[1]);
-		double critical=min((double)(stat[2]+weapon[2]));
-		double criticalAttack=(double)(stat[3]+weapon[3])/100;
-		double attackSpeed=(double)(stat[4]+weapon[4])/100;
-		double power;
+	private static float computePower(int stat[],int weapon[]) {
+		float attack=(float)(stat[0]+weapon[0]);
+		float strength=(float)(stat[1]+weapon[1]);
+		float critical=min((float)(stat[2]+weapon[2]));
+		float criticalAttack=(float)(stat[3]+weapon[3])/100;
+		float attackSpeed=(float)(stat[4]+weapon[4])/100;
+		float power;
 		power=attack*(1+(strength/100))*((1-critical)+critical*criticalAttack)*(1+attackSpeed);
 		return power;
 	}
