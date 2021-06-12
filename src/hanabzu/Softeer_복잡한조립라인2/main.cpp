@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
 	}
 
 	// find minimum
-	for (int i = 0; i < N - 1; i++) {
+	for (int i = 1; i < N; i++) {
 		cin >> move;
 		local_min = *min_element(work, work + K) + move;
 		for (int j = 0; j < K; j++) {
