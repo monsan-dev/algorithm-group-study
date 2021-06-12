@@ -35,6 +35,7 @@
 | 5주차 (5월 5주) |[도로와 신호등 (Silver 3)](https://www.acmicpc.net/problem/2980)|
 | 6주차 (6월 1주) |[님 무기가 좀 나쁘시네여 (Silver 1)](https://www.acmicpc.net/problem/11387)|
 | 7주차 (6월 2주) |[행복한 소수 (Silver 2)](https://www.acmicpc.net/problem/10434)|
+| 8주차 (6월 3주) |[복잡한 조립라인2 (level 5)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=405)|
 
 
 ## :blue_book: Algorithm Materials
@@ -47,7 +48,7 @@
 ## 👦 Member
 |이름|GitHub| 백준 | SWEA | 프로그래머스 |
 |:---:|:---:|:------:|:------:|:------:|
-|안세훈|[@ashpurple](https://github.com/ashpurple)| Unranked | 2110 point | - |
+|안세훈|[@ashpurple](https://github.com/ashpurple)| Bronze5 | 2110 point | - |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
-|한경빈|[@hanabzu](https://github.com/hanabzu)| Unranked | 1000 point | - |
+|한경빈|[@hanabzu](https://github.com/hanabzu)| Bronze3 | 1000 point | - |
 |권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
