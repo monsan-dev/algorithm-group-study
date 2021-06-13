@@ -17,7 +17,7 @@ public class Main {
 		int workNum = stoi(st.nextToken()); // the number of work place
 		
 		int[] workTime = new int[lineNum];
-		int[] moveTime = new int[workNum-1];
+		int moveTime;
 		int previousMin=0;
 		Arrays.fill(workTime, 0); // initialize workTime
 		
@@ -28,8 +28,8 @@ public class Main {
 				workTime[j] = min(previousMin, workTime[j]);
 				workTime[j] += stoi(st.nextToken()); // update workTime
 			}
-			moveTime[i] = stoi(st.nextToken());
-			previousMin = min(workTime)+moveTime[i]; // previous minimum workTime
+			moveTime = stoi(st.nextToken());
+			previousMin = min(workTime)+moveTime; // previous minimum workTime
 		}
 		st = new StringTokenizer(br.readLine()); // last line
 		for (int j = 0; j < lineNum; j++) {
