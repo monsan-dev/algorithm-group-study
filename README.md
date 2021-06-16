@@ -36,7 +36,7 @@
 | 6주차 (6월 1주) |[님 무기가 좀 나쁘시네여 (Silver 1)](https://www.acmicpc.net/problem/11387)|
 | 7주차 (6월 2주) |[행복한 소수 (Silver 2)](https://www.acmicpc.net/problem/10434)|
 | 8주차 (6월 3주) |[복잡한 조립라인2 (level 5)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=405)|
-
+| 9주차 (6월 4주) |[귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다 (Gold 5)](https://www.acmicpc.net/problem/6568)|
 
 ## :blue_book: Algorithm Materials
 
@@ -50,5 +50,5 @@
 |:---:|:---:|:------:|:------:|:------:|
 |안세훈|[@ashpurple](https://github.com/ashpurple)| Bronze5 | 2110 point | - |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
-|한경빈|[@hanabzu](https://github.com/hanabzu)| Bronze3 | 1000 point | - |
+|한경빈|[@hanabzu](https://github.com/hanabzu)| Bronze2 | 1000 point | - |
 |권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
