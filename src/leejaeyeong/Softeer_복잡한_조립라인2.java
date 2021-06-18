@@ -10,25 +10,25 @@ public class Softeer_복잡한_조립라인2 {
 		
 		int k = stoi(st.nextToken()); // 라인 수 
 		int n = stoi(st.nextToken()); // 작업장의 수 
+		int[] work = new int[k];
 		
-		int[][] work = new int[n][k];
-		int[] cost = new int[n];
-		for (int i = 0; i < n; i++) {
+		// 시작 작업장 input
+		st = new StringTokenizer(br.readLine());
+		for (int i = 0; i < k; i++) {
+			work[i] = stoi(st.nextToken());
+		}
+		int moveCost = stoi(st.nextToken());
+		for (int i = 1; i < n; i++) {
 			st = new StringTokenizer(br.readLine());
+			int prevVal = Arrays.stream(work).min().getAsInt() + moveCost; // 이전 작업장까지의 최소 비용 + 이동비용
 			for (int j = 0; j < k; j++) {
-				work[i][j] = stoi(st.nextToken());
+				work[j] = Math.min(prevVal, work[j]) + stoi(st.nextToken());
 			}
 			if (i == n - 1) break;
-			cost[i] = stoi(st.nextToken());
+			moveCost = stoi(st.nextToken());
 		}
 		
-		for (int i = 1; i < n; i++) {
-			for (int j = 0; j < k; j++) {
-				int prevVal = Arrays.stream(work[i-1]).min().getAsInt() + cost[i-1];
-				work[i][j] += Math.min(prevVal, work[i-1][j]);
-			}
-		}	
-		System.out.println(Arrays.stream(work[n-1]).min().getAsInt());
+		System.out.println(Arrays.stream(work).min().getAsInt());
 	}
 	
 	private static int stoi(String s) {
