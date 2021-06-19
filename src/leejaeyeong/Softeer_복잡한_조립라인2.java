@@ -17,15 +17,14 @@ public class Softeer_복잡한_조립라인2 {
 		for (int i = 0; i < k; i++) {
 			work[i] = stoi(st.nextToken());
 		}
-		int moveCost = stoi(st.nextToken());
 		for (int i = 1; i < n; i++) {
+			int moveCost = stoi(st.nextToken());
 			st = new StringTokenizer(br.readLine());
 			int prevVal = Arrays.stream(work).min().getAsInt() + moveCost; // 이전 작업장까지의 최소 비용 + 이동비용
 			for (int j = 0; j < k; j++) {
 				work[j] = Math.min(prevVal, work[j]) + stoi(st.nextToken());
 			}
 			if (i == n - 1) break;
-			moveCost = stoi(st.nextToken());
 		}
 		
 		System.out.println(Arrays.stream(work).min().getAsInt());
