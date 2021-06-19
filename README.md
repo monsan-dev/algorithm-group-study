@@ -52,3 +52,4 @@
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
 |한경빈|[@hanabzu](https://github.com/hanabzu)| Bronze2 | 1000 point | - |
 |권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
+|강두원|[@DW-K](https://github.com/DW-K)| Bronze2 | 2490 point | 1115 point |
