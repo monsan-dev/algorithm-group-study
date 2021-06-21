@@ -51,7 +51,6 @@ void read_case() {
 			if (adder == 0) {
 				pc = address;
 			}
-			break;
 		case 3: // NOP
 			break;
 		case 4: // DEC
