@@ -1,4 +1,4 @@
-/* hanabzu */
+﻿/* hanabzu */
 /* BOJ_6568 귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다 */
 
 #include <iostream>
@@ -38,11 +38,10 @@ void read_case() {
 		op = (memory[pc] >> 5).to_ulong();
 		address = (memory[pc] << 3 >> 3).to_ulong();
 		pc = (pc + 1) % 32; // program counter has 5 bits
-		bitset<8> bit_adder(adder); // unsigned char to bitset
-
+		
 		switch (op) {
 		case 0: // STA
-			memory[address] = bit_adder;
+			memory[address] = bitset<8>(adder); // unsigned char to bitset
 			break;
 		case 1: // LDA
 			adder = memory[address].to_ulong();
@@ -51,6 +50,7 @@ void read_case() {
 			if (adder == 0) {
 				pc = address;
 			}
+			break;
 		case 3: // NOP
 			break;
 		case 4: // DEC
@@ -63,7 +63,7 @@ void read_case() {
 			pc = address;
 			break;
 		case 7: // HLT
-			cout << bit_adder << '\n';
+			cout << bitset<8>(adder) << '\n';
 			return;
 		}
 	}
