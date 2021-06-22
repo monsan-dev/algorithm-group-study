@@ -48,7 +48,7 @@
 ## 👦 Member
 |이름|GitHub| 백준 | SWEA | 프로그래머스 |
 |:---:|:---:|:------:|:------:|:------:|
-|안세훈|[@ashpurple](https://github.com/ashpurple)| Bronze5 | 2110 point | - |
+|안세훈|[@ashpurple](https://github.com/ashpurple)| Bronze4 | 2110 point | - |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
 |한경빈|[@hanabzu](https://github.com/hanabzu)| Bronze2 | 1000 point | - |
 |권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
