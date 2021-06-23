@@ -10,7 +10,7 @@ int main(void) {
 		scanf("%d", &volumeArray[i]);
 	}
 
-	int maxValue = volumeArray[0];
+	unsigned int maxValue = volumeArray[0];
 
 	for (int i = 1; i < N; ++i) {		//find the biggest value in volume array
 		if (volumeArray[i] > maxValue)
@@ -23,7 +23,7 @@ int main(void) {
 	while (low <= high) {			//binary search : BigO = log2 N
 		int counter = 0;
 
-		int mid = low + high >> 1;	//divide by 2
+		int mid = low + (high - low >> 1);	//divide by 2
 
 		for (int i = 0; i < N; ++i) {
 			counter += volumeArray[i] / mid;
