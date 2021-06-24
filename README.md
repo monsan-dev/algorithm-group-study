@@ -37,6 +37,7 @@
 | 7주차 (6월 2주) |[행복한 소수 (Silver 2)](https://www.acmicpc.net/problem/10434)|
 | 8주차 (6월 3주) |[복잡한 조립라인2 (level 5)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=405)|
 | 9주차 (6월 4주) |[귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다 (Gold 5)](https://www.acmicpc.net/problem/6568)|
+| 10주차 (6월 5주) |[토마토 (Silver 1)](https://www.acmicpc.net/problem/7569)|
 
 ## :blue_book: Algorithm Materials
 
