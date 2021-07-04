@@ -38,6 +38,7 @@
 | 8주차 (6월 3주) |[복잡한 조립라인2 (level 5)](https://softeer.ai/practice/info.do?eventIdx=1&psProblemId=405)|
 | 9주차 (6월 4주) |[귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다 (Gold 5)](https://www.acmicpc.net/problem/6568)|
 | 10주차 (6월 5주) |[토마토 (Silver 1)](https://www.acmicpc.net/problem/7569)|
+| 11주차 (7월 1주) |[사회망 서비스(SNS) (Gold 3)](https://www.acmicpc.net/problem/2533)|
 
 ## :blue_book: Algorithm Materials
 
@@ -49,8 +50,8 @@
 ## 👦 Member
 |이름|GitHub| 백준 | SWEA | 프로그래머스 |
 |:---:|:---:|:------:|:------:|:------:|
-|안세훈|[@ashpurple](https://github.com/ashpurple)| Bronze4 | 2110 point | - |
+|안세훈|[@ashpurple](https://github.com/ashpurple)| Silver5 | 2110 point | - |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
-|한경빈|[@hanabzu](https://github.com/hanabzu)| Bronze2 | 1000 point | - |
-|권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
+|한경빈|[@hanabzu](https://github.com/hanabzu)| Silver1 | 1000 point | - |
 |강두원|[@DW-K](https://github.com/DW-K)| Bronze2 | 2490 point | 1115 point |
+|권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
