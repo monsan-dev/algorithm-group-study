@@ -22,7 +22,7 @@
   - 문제해결을 위한 핵심 아이디어를 기재하여 PR.
   - 2명 이상의 reviewer를 지정하고 code review를 통해 피드백을 나눈다. (리뷰 제목 반드시 작성)
   - code review에 추가 코멘트를 달고 더 논의할 부분이 있으면 대화를 이어나가며, 대화가 끝나면 resolve한다.
-  - **모든 대화가 resolve되었다면 마지막 reviewer가 merge한다.**
+  - **모든 대화가 resolve되었다면 마지막 reviewer가 merge한다.**Cancel changes
 
 ## :green_book: Schedule
 
@@ -50,8 +50,8 @@
 ## 👦 Member
 |이름|GitHub| 백준 | SWEA | 프로그래머스 |
 |:---:|:---:|:------:|:------:|:------:|
-|안세훈|[@ashpurple](https://github.com/ashpurple)| Silver5 | 2110 point | - |
+|안세훈|[@ashpurple](https://github.com/ashpurple)| Silver4 | 2110 point | - |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| Gold3 | 1000 point | - |
-|한경빈|[@hanabzu](https://github.com/hanabzu)| Silver1 | 1000 point | - |
+|한경빈|[@hanabzu](https://github.com/hanabzu)| Gold5 | 1000 point | - |
 |강두원|[@DW-K](https://github.com/DW-K)| Bronze2 | 2490 point | 1115 point |
 |권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
