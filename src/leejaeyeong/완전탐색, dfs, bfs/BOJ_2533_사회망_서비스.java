@@ -31,33 +31,23 @@ public class BOJ_2533_사회망_서비스 {
 		}
 		
 		treeSearch(1); // 1번 노드부터 탐색
-		int answer = 0;
-		for (int i = 1; i <= n; i++) {
-			if (earlyAdopter[i]) { // 얼리어답터 수 카운트
-				++answer;
-			}
-		}
-		System.out.println(answer);
+		System.out.println(count);
 	}
 	
 	
-	private static boolean treeSearch(int root) {
+	private static void treeSearch(int root) {
 		visited[root] = true;
 		
-		if (tree[root].isEmpty()) { // 단말노드인 경우 
-			return true; 
-		}
-		
 		for (int node : tree[root]) {
-			if (!visited[node]) { // 아직 처리하지 않은 경우 
-				if (treeSearch(node) || !earlyAdopter[node]) { // node가 단말 노드이거나, 얼리어답터가 아닌 경우
+			if (!visited[node]) { // 아직 처리하지 않은 경우
+				treeSearch(node);
+				if (!earlyAdopter[node] && !earlyAdopter[root]) { // node가 단말 노드이거나, 얼리어답터가 아닌 경우
 					earlyAdopter[root] = true; // 부모 노드를 얼리어답터로 처리
+					count++;
 				} 
 			}
 		}
-		return false;
 	}
-
 
 	private static int stoi(String s) {
 		return Integer.parseInt(s);
