@@ -22,8 +22,7 @@
   - 문제해결을 위한 핵심 아이디어를 기재하여 PR.
   - 2명 이상의 reviewer를 지정하고 code review를 통해 피드백을 나눈다. (리뷰 제목 반드시 작성)
   - code review에 추가 코멘트를 달고 더 논의할 부분이 있으면 대화를 이어나가며, 대화가 끝나면 resolve한다.
-  - **모든 대화가 resolve되었다면 마지막 reviewer가 merge한다.**Cancel changes
-
+  - **모든 대화가 resolve되었다면 마지막 reviewer가 merge한다.**
 ## :green_book: Schedule
 
 |    주차     | 문제 |
