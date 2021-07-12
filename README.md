@@ -38,7 +38,7 @@
 | 9주차 (6월 4주) |[귀도 반 로썸은 크리스마스날 심심하다고 파이썬을 만들었다 (Gold 5)](https://www.acmicpc.net/problem/6568)|
 | 10주차 (7월 1주) |[토마토 (Silver 1)](https://www.acmicpc.net/problem/7569)|
 | 11주차 (7월 2주) |[사회망 서비스(SNS) (Gold 3)](https://www.acmicpc.net/problem/2533)|
-| 12주차 (7월 3주) |[리그 오브 레전설 (Large) (Gold 1)](https://www.acmicpc.net/problem/17272)|
+| 12주차 (7월 3주) |[행렬 제곱 (Gold 4)](https://www.acmicpc.net/problem/10830)|
 
 ## :blue_book: Algorithm Materials
 
