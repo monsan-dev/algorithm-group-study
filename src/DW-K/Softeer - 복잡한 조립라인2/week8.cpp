@@ -18,18 +18,17 @@ int main(void) {
 	bool firstIndex = 0;
 
 	for (int i = 0; i < N; ++i) {
-		cin >> L[!firstIndex][i];
+		cin >> L[firstIndex][i];
 	}
 
 	for (int i = 1; i < K; ++i) {
 		cin >> L[firstIndex][N];
 
-		for (int j = 0; j < N; ++j)
-			cin >> L[firstIndex][j];
-
 		int minValue = *min_element(L[firstIndex], L[firstIndex] + N) + L[firstIndex][N];
+
 		for (int j = 0; j < N; ++j) {
 			L[firstIndex][j] = minValue < L[firstIndex][j] ? minValue : L[firstIndex][j];
+			cin >> L[!firstIndex][j];
 			L[!firstIndex][j] += L[firstIndex][j];
 		}
 
