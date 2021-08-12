@@ -42,6 +42,7 @@
 | 13주차 (7월 4주) |[페그 솔리테어 (Gold 5)](https://www.acmicpc.net/problem/9207)|
 | 14주차 (7월 5주) |[반도체 설계 (Gold 2)](https://www.acmicpc.net/problem/2352)|
 | 15주차 (8월 1주) |[모노미노도미노 2 (Gold 2)](https://www.acmicpc.net/problem/20061)|
+| 16주차 (8월 2주) |[포도주 시식 (Silver 1)](https://www.acmicpc.net/problem/2156)|
 
 ## :blue_book: Algorithm Materials
 
