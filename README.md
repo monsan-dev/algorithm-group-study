@@ -44,6 +44,7 @@
 | 15주차 (8월 1주) |[모노미노도미노 2 (Gold 2)](https://www.acmicpc.net/problem/20061)| BAEKJOON |
 | 16주차 (8월 2주) |[포도주 시식 (Silver 1)](https://www.acmicpc.net/problem/2156)| BAEKJOON |
 | 17주차 (8월 3주) |[베스트앨범 (Level 3)](https://programmers.co.kr/learn/courses/30/lessons/42579)| Programmers |
+| 18주차 (8월 4주) |[퍼즐 조각 채우기 (Level 3)](https://programmers.co.kr/learn/courses/30/lessons/84021?language=cpp)| Programmers |
 
 ## :blue_book: Algorithm Materials
 
