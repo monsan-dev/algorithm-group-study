@@ -57,8 +57,8 @@
 ## 👦 Member
 |이름|GitHub| 백준 | SWEA | 프로그래머스 |
 |:---:|:---:|:------:|:------:|:------:|
-|안세훈|[@ashpurple](https://github.com/ashpurple)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=ashpurple)](https://solved.ac/ashpurple) | 2110 point | 1000 point |
+|안세훈|[@ashpurple](https://github.com/ashpurple)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=ashpurple)](https://solved.ac/ashpurple) | 2110 point | 1031 point |
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=dldustn48)](https://solved.ac/dldustn48) | 1000 point | 1000 point |
-|한경빈|[@hanabzu](https://github.com/hanabzu)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=sefrd)](https://solved.ac/sefrd) | 1000 point | 1000 point |
+|한경빈|[@hanabzu](https://github.com/hanabzu)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=sefrd)](https://solved.ac/sefrd) | 1000 point | 1031 point |
 |강두원|[@DW-K](https://github.com/DW-K)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=pch145)](https://solved.ac/pch145) | 2490 point | 1115 point |
 |권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
