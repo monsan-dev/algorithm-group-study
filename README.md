@@ -46,7 +46,7 @@
 | 17주차 (8월 3주) |[베스트앨범 (Level 3)](https://programmers.co.kr/learn/courses/30/lessons/42579)| Programmers |
 | 18주차 (8월 4주) |[퍼즐 조각 채우기 (Level 3)](https://programmers.co.kr/learn/courses/30/lessons/84021?language=cpp)| Programmers |
 | 19주차 (9월 1주) |[순위 (Level 3)](https://programmers.co.kr/learn/courses/30/lessons/49191)| Programmers |
-| 20주차 (9월 2주) |[동굴 탐험 (Level 3)](https://programmers.co.kr/learn/courses/30/lessons/67260)| Programmers |
+| 20주차 (9월 2주) ~ |**이후 각자 수준에 맞도록 공부**👍| Anywhere! |
 
 ## :blue_book: Algorithm Materials
 
@@ -63,4 +63,4 @@
 |이재영|[@leejaeyeong](https://github.com/leejaeyeong)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=dldustn48)](https://solved.ac/dldustn48) | 1000 point | 1000 point |
 |한경빈|[@hanabzu](https://github.com/hanabzu)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=sefrd)](https://solved.ac/sefrd) | 1000 point | 1031 point |
 |강두원|[@DW-K](https://github.com/DW-K)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=pch145)](https://solved.ac/pch145) | 2490 point | 1115 point |
-|권오태|[@oteosuk](https://github.com/oteosuk)| Unranked | 0 point | - |
+|권오태|[@oteosuk](https://github.com/oteosuk)| [![solved.ac tier](http://mazassumnida.wtf/api/mini/generate_badge?boj=oteosuk)](https://solved.ac/oteosuk) | 0 point | - |
